@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class AutomatedTest extends utilities {
 
-    @Test(testName = "TestScenario1", priority = 1,enabled = false)
+    @Test(testName = "TestScenario1", priority = 1,enabled = true)
     public  void TestScenario1(){
 
         driver.get(url);
