@@ -7,7 +7,7 @@ public class AutomatedTest extends utilities {
 
     @Test(testName = "TestScenario1", priority = 1,enabled = true)
     public  void TestScenario1(){
-        //committing in main branch
+        //hello world
 
         driver.get(url);
         RegisterPage reg=new RegisterPage(driver);
